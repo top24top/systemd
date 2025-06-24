@@ -14,23 +14,26 @@ Ubuntu
 docker run -d -p 2222:22 --name systemd-ubuntu-24.04 --privileged -v /sys/fs/cgroup:/sys/fs/cgroup:rw --cgroupns=host systemd25/systemd-ubuntu-24.04:latest
 =========================
 User:root
+=========================
 Password:SystemD123
+=========================
+=========================
 =========================
 Ubuntu:
 =========================
-systemd25/systemd-ubuntu-22.04:latest
+docker run -d -p 2222:22 --name systemd-ubuntu-24.04 --privileged -v /sys/fs/cgroup:/sys/fs/cgroup:rw --cgroupns=host systemd25/systemd-ubuntu-22.04:latest
 =========================
-systemd25/systemd-ubuntu-20.04:latest
+docker run -d -p 2222:22 --name systemd-ubuntu-24.04 --privileged -v /sys/fs/cgroup:/sys/fs/cgroup:rw --cgroupns=host systemd25/systemd-ubuntu-20.04:latest
 =========================
-systemd25/systemd-ubuntu-18.04:latest
+docker run -d -p 2222:22 --name systemd-ubuntu-24.04 --privileged -v /sys/fs/cgroup:/sys/fs/cgroup:rw --cgroupns=host systemd25/systemd-ubuntu-18.04:latest
 =========================
 Debian:
 =========================
-systemd25/systemd-debian-12:latest
+docker run -d -p 2222:22 --name systemd-ubuntu-24.04 --privileged -v /sys/fs/cgroup:/sys/fs/cgroup:rw --cgroupns=host systemd25/systemd-debian-12:latest
 =========================
-systemd25/systemd-debian-11:latest
+docker run -d -p 2222:22 --name systemd-ubuntu-24.04 --privileged -v /sys/fs/cgroup:/sys/fs/cgroup:rw --cgroupns=host systemd25/systemd-debian-11:latest
 =========================
-systemd25/systemd-debian-10:latest
+sdocker run -d -p 2222:22 --name systemd-ubuntu-24.04 --privileged -v /sys/fs/cgroup:/sys/fs/cgroup:rw --cgroupns=host ystemd25/systemd-debian-10:latest
 =========================
 ![systemd-ubuntu-22 04](https://github.com/user-attachments/assets/79a04fd3-43e5-4e36-ada5-5a389bc5aeec)
 ![systemd-ubuntu-20 04](https://github.com/user-attachments/assets/6e1c9d57-7dda-4d82-b8bc-649bcb777d6d)
